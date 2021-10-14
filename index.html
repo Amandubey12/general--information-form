@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>information form</title>
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="container2">
+            <h1>General information</h1>
+
+            <form name="fom">
+                <select name="selc" id="sel">
+                    <option value="1">Title</option>
+                    <option value="2">MR.</option>
+                    <option value="3">MISS.</option>
+                </select>
+                <br>
+
+                <input type="text" name="first" id="First" placeholder="First" required> <input type="text" name="last"
+                    id="Last" placeholder="Last" required>
+
+                <select name="pos" id="pos">
+                    <option value="1">Positions</option>
+                    <option value="2">fron end developer</option>
+                    <option value="3">backend developer</option>
+                </select>
+                <br>
+                <input type="text" name="comp" id="comp" placeholder="Company" required> <br>
+                <input type="text" name="firs" id="Firs" placeholder="First">
+                <select name="emp" id="emp">
+                    <option value="1">Employee</option>
+                    <option value="2">Partime</option>
+                    <option value="3">full time</option>
+                </select>
+
+
+
+
+
+
+            </form>
+        </div>
+        <div class="container3">
+            <form action="" name="form" onsubmit="return(aman());">
+                <h1 class="h">Contact Details</h1>
+
+                <input type="text" name="com" id="com" placeholder="Street+Nr">
+                <input type="text" name="co" id="co" placeholder="Additional information">
+                <input type="number" name="zip" id="zip" placeholder="Zip Code">
+                <select name="plc" id="plc">
+                    <option value="1">Place</option>
+                    <option value="2">Delhi</option>
+                    <option value="3">Mumbai</option>
+                </select>
+                <br>
+                <select name="con" id="con">
+                    <option value="1">country</option>
+                    <option value="2">India</option>
+                    <option value="3">Other</option>
+                </select>
+                <br>
+                <input type="number" name="code" id="code" placeholder="Code+"> <input type="number" name="phone"
+                    id="phone" placeholder="Phone Number">
+                <br>
+                <input type="email" name="email" id="email" placeholder="email">
+                <br>
+                <input type="checkbox" name="check" id="check">
+                <span> i do accept the <a>Term and Conditons</a>of your site</span>
+                <br>
+                <input type="submit" id="submit" value="Register  Badge">
+
+
+
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+</body>
+<script src="js/alert.js"></script>
+
+</html>

@@ -1,0 +1,232 @@
+body{
+    background: rgb(241, 241, 245);
+}
+.container{
+    
+    height: 90vh;
+    
+     height: 80vh;
+      display: flex;
+      justify-content: center;
+      padding:60px;
+      background: rgb(106, 168, 248);
+}
+.container2{
+    /* border: 2px solid black; */
+    height: 70vh;
+    width: 60vh;
+    background: white;
+}
+.container3{
+    /* border: 2px solid black; */
+    height:70vh;
+    width: 60vh;
+    background:rgb(106, 49, 240);
+}
+h1{
+    margin-left: 20px;
+    color: turquoise;
+}
+#sel{
+    width: 400px;
+    margin-left: 20px;
+    height: 32px;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+#First{
+    width: 180px;
+    margin-left: 20px;
+    height: 30px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid grey;
+
+}
+#Last{
+    width: 180px;
+    margin-left: 20px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+#pos{
+    width: 400px;
+    margin-left: 20px;
+    height: 32px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+#comp{
+    width: 400px;
+    margin-left: 20px;
+    height: 32px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+#Firs{
+    width: 180px;
+    margin-left: 20px;
+    height: 30px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid grey;
+
+}
+#emp{
+    width: 180px;
+    margin-left: 20px;
+    height: 32px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+.h{
+    color: white;
+}
+#com{
+    width: 400px;
+    margin-left: 20px;
+    height: 32px;
+    background:rgb(106, 49, 240);
+    border: none;
+    border-bottom: 2px solid white;
+    
+}
+/* if user input anything thats color while */
+input,text{
+    color: white;
+}
+/* select dropdawnd  */
+.container3 select{
+    color:white ;
+}
+
+
+#co{
+    width: 400px;
+    margin-left: 20px;
+    height: 32px;
+    margin-top: 20px;
+    background:rgb(106, 49, 240);
+    border: none;
+    border-bottom: 2px solid white;
+    
+
+}
+#zip{
+    width: 130px;
+    margin-left: 20px;
+    height: 32px;
+    margin-top: 20px;
+    background:rgb(106, 49, 240);
+    border: none;
+    border-bottom: 2px solid white;
+    
+}
+/* all email in the form are white color */
+ input[type="email"]::placeholder {
+    color:white;
+}
+/* a;; numbers of intput become white color */
+.container3 input[type="number"]::placeholder{
+    color:white;
+}
+/* all text input become white color */
+
+.container3 input[type="text"]::placeholder{
+    color: white;
+}
+
+  
+    
+
+
+
+#plc{
+    width:250px ;
+    margin-left: 20px;
+    height: 32px;
+    margin-top: 20px;
+    background:rgb(106, 49, 240);
+    border: none;
+    border-bottom: 2px solid white;
+    
+    
+}
+
+
+
+#con{
+    width: 400px;
+    margin-left: 20px;
+    height: 32px;
+    margin-top: 20px;
+    background:rgb(106, 49, 240);
+    text-decoration: white;
+    border: none;
+    border-bottom: 2px solid white;
+    
+}
+  
+
+#code{
+    width: 180px;
+    margin-left: 20px;
+    height: 32px;
+    margin-top: 20px;
+    background:rgb(106, 49, 240);
+    text-decoration: white;
+    border: none;
+    border-bottom: 2px solid white;
+    
+}
+
+#phone{
+    width: 180px;
+    margin-left: 20px;
+    height: 32px;
+    margin-top: 20px;
+    background:rgb(106, 49, 240);
+    border: none;
+    border-bottom: 2px solid white;
+    
+}
+
+#email{
+    width: 400px;
+    margin-left: 20px;
+    height: 32px;
+    margin-top: 20px;
+    background:rgb(106, 49, 240);
+    border: none;
+    border-bottom: 2px solid white;
+    
+}
+  
+
+
+#check{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+span{
+    color: white;
+    
+
+}
+#submit{
+    margin-left: 20px;
+    width: 120px;
+    height: 40px;
+    background: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: black;
+}
+
+
+
+
